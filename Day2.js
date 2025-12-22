@@ -23,12 +23,22 @@
 // console.log(Object.values(collegeDetails))
 // console.log(collegeDetails.students[3]);
 
-function getStudentName (){
-    console.log("i am normal func");
-}
-getStudentName();
 
-const getCollegeName = () => {
-    console.log("i am arrow function");
+
+// normal function ma function use hunxa but arrow function ma chai const use garnu parxa
+
+// function getStudentName (){
+//     console.log("i am normal func");
+// }
+// getStudentName();
+
+// const getCollegeName = () => {
+//     console.log("i am arrow function");
+// };
+// getCollegeName();
+
+const getName = (name) => {
+    console.log('hi, ${name}');
 };
-getCollegeName();
+getName(saru);
+
